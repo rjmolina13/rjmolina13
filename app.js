@@ -5510,7 +5510,7 @@ document.write(
   '<script src="//rawcdn.githack.com/cheems/goindex-extended/295ceaf2d64b2cb8578b21c0313d75b7bc8738a1/js/flv.min.js"></script>'
 );
 document.write(
-  '<script src="//cdn.plyr.io/3.6.9/plyr.js"></script>'
+  '<script src="//rawcdn.githack.com/cheems/goindex-extended/295ceaf2d64b2cb8578b21c0313d75b7bc8738a1/js/DPlayer.min.js"></script>'
 );
 document.write(
   '<script src="//cdn.jsdelivr.net/npm/marked@4.0.0/marked.min.js"></script>'
@@ -5875,7 +5875,7 @@ function append_files_to_list(path, files) {
 	              <button onclick="window.open('${p}','_blank')" class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass" style="float: right;">
                   <i class="mdui-icon material-icons dummyclass">launch</i>
                 </button>
-                <button onclick="(function setClipboard(value) {var tempInput = document.createElement('input');tempInput.style = 'position: absolute; left: -1000px; top: -1000px';tempInput.value = value;document.body.appendChild(tempInput);tempInput.select();document.execCommand('copy');document.body.removeChild(tempInput);})(window.location.protocol + '//' + window.location.hostname + '${p}')" class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass" style="float: right;">
+                <button data-id="{{ $i->id }}" onclick="(function setClipboard(value) {var tempInput = document.createElement('input');tempInput.style = 'position: absolute; left: -1000px; top: -1000px';tempInput.value = value;document.body.appendChild(tempInput);tempInput.select();document.execCommand('copy');document.body.removeChild(tempInput);})(window.location.protocol + '//' + window.location.hostname + '${p}')" class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass" style="float: right;">
                   <i class="mdui-icon material-icons dummyclass">content_copy</i>
                 </button>
               </div>
@@ -5923,11 +5923,15 @@ function append_files_to_list(path, files) {
               <button onclick="window.open('${p}','_blank')" class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass" style="float: right;">
                 <i class="mdui-icon material-icons dummyclass">launch</i>
               </button>
-              <button onclick="(function setClipboard(value) {var tempInput = document.createElement('input');tempInput.style = 'position: absolute; left: -1000px; top: -1000px';tempInput.value = value;document.body.appendChild(tempInput);tempInput.select();document.execCommand('copy');document.body.removeChild(tempInput);})(window.location.protocol + '//' + window.location.hostname + '${ddl_link}')" class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass" style="float: right;">
+              <button data-id="{{ $i->id }}" onclick="(function setClipboard(value) {var tempInput = document.createElement('input');tempInput.style = 'position: absolute; left: -1000px; top: -1000px';tempInput.value = value;document.body.appendChild(tempInput);tempInput.select();document.execCommand('copy');document.body.removeChild(tempInput);})(window.location.protocol + '//' + window.location.hostname + '${ddl_link}')" class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass" style="float: right;">
                 <i class="mdui-icon material-icons dummyclass">content_copy</i>
               </button>
             </div>
 	      </li>`;
+	    $(document).on('click', 'button[data-id]', function (e) {
+    		var requested_to = $(this).attr('data-id');
+		mdui.snackbar("Copied to clipboard!");
+	    });
     }
   }
   if (targetFiles.length > 0) {
