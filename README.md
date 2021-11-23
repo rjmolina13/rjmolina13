@@ -4,7 +4,7 @@
   </a>
 
   <h1 align="left">Hello! It's me, RubyJ!</h1>
-  <h2 align="left">Currently a Computer Science student at  <a href="http://www.catanduanesstateu.edu.ph" target="_blank"><img src="https://png2.cleanpng.com/dy/abb9037515b225be302c3ebca6c558d8/L0KzQYm3V8E5N5N8gJH0aYP2gLBuTfNifJJzfOdqbnX2PcT7ggRmNaZzgehucoPshMq0lf5qfpZ3i9t9eT3ydn70ifNpcZhmRdV8dT3vf7j2TcVjPJdpStMANUnoQ7eCTsM3QWk2T6M8MUW2QYq8V8kzPWQ7UKQ3cH7q/kisspng-catanduanes-state-university-university-of-michiga-csu-logo-5b4fd2a559e3f9.3698171315319579253682.png" width="25px" style="vertical-align: middle;" /> Catanduanes State University.</a></h2>
+  <h2 align="left">Currently a Computer Science student at  <a href="http://www.catanduanesstateu.edu.ph" target="_blank"><img src="https://i.imgur.com/Q3mLynn.png" width="25px" style="vertical-align: middle;" /> Catanduanes State University.</a></h2>
 
 
 - 💻 Currently working on my *RubyJ Windows MultiTool* (unreleased).
