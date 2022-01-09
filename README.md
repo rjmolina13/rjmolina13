@@ -3,11 +3,11 @@
       <img src="https://c.tenor.com/ytbME8XmAu0AAAAC/emilia-tan-smile.gif" align="right" title="Emilia tan <3" width="450px" height="auto" alt="Emilia tan <3">
   </a>
 
-  <h1 align="left">Hello! It's me, RubyJ!</h1>
-   <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=rjmolina13&color=yellow" alt="Profile Views">
+  <h1 align="left">Hello! It's me, RubyJ!<img src="https://komarev.com/ghpvc/?username=rjmolina13&color=yellow"> </h1> 
+   <!-- <p align="left">
+    <img src="https://komarev.com/ghpvc/?username=rjmolina13&color=yellow" alt="Profile Views"> -->
     <!-- <a href=""><img src="https://hit.yhype.me/github/profile?user_id=38134522" alt=" "></a> -->
-  </p>
+  <!-- </p> -->
     <p align="center">
  <img align="center" src="https://spotify-github-profile.vercel.app/api/view?uid=rj.molina13&cover_image=true&theme=natemoo-re&bar_color_cover=true" alt="Spotify Playing">
   </p>
