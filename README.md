@@ -3,7 +3,7 @@
       <img src="https://c.tenor.com/ytbME8XmAu0AAAAC/emilia-tan-smile.gif" align="right" title="Emilia tan <3" width="450px" height="auto" alt="Emilia tan <3">
   </a>
 
-  <h1 align="left">Hello! It's me, RubyJ!  <img src="https://komarev.com/ghpvc/?username=rjmolina13&color=yellow"> </h1> 
+  <h1 align="left">Hello! It's me, RubyJ!  <a href="#blank"> <img src="https://komarev.com/ghpvc/?username=rjmolina13&color=yellow"> </h1> 
    <!-- <p align="left">
     <img src="https://komarev.com/ghpvc/?username=rjmolina13&color=yellow" alt="Profile Views"> -->
     <!-- <a href=""><img src="https://hit.yhype.me/github/profile?user_id=38134522" alt=" "></a> -->
