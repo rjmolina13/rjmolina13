@@ -4,7 +4,14 @@
   </a>
 
   <h1 align="left">Hello! It's me, RubyJ!</h1>
-  <h2 align="left">Currently a Computer Science student at  <a href="http://www.catanduanesstateu.edu.ph" target="_blank"><img src="https://i.imgur.com/Q3mLynn.png" width="25px" style="vertical-align: middle;" /> Catanduanes State University.</a></h2>
+   <p align="center">
+    <img src="https://komarev.com/ghpvc/?username=rjmolina13&color=yellow" alt="Profile Views">
+    <!-- <a href=""><img src="https://hit.yhype.me/github/profile?user_id=38134522" alt=" "></a> -->
+  </p>
+    <p align="center">
+ <img align="center" src="https://spotify-github-profile.vercel.app/api/view?uid=rj.molina13&cover_image=true&theme=natemoo-re&bar_color_cover=true" alt="Spotify Playing">
+  </p>
+    <h2 align="left">Currently a Computer Science student at  <a href="http://www.catanduanesstateu.edu.ph" target="_blank"><img src="https://i.imgur.com/Q3mLynn.png" width="25px" style="vertical-align: middle;" /> Catanduanes State University.</a></h2>
 
 
 - 💻 Currently working on my *RubyJ Windows MultiTool* (unreleased).
